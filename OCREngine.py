@@ -279,7 +279,7 @@ def runOcrEngine(filename, touch_char_segementation_model, connected_character_r
             (key, val) = line.split()
             math_symbols[int(key)] = val
 
-    with open('D:/Dataset/class_indices.pickle', 'rb') as fp:
+    with open('./Datasets/class_indices.pickle', 'rb') as fp:
         class_indices = pickle.load(fp)
     key_list = list(class_indices.keys())
     val_list = list(class_indices.values())
