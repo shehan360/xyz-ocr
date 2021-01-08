@@ -1,8 +1,8 @@
 ﻿# xyz-ocr
-This is a OCR designed to read mathematical documents.
+This is an OCR designed to read mathematical documents. It is capable of recognizing 72 characters, which are 62 alpha numeric characters and 10 mathematical symbols ( (, ), +, -, /, =, [, ], division, * ).
 
-
-
+The relevant research paper can be found at :
+https://www.cgv-conf.org/wp-content/uploads/2020/07/03_202011L008_F080.pdf
 
 ## How to run
 
